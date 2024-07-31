@@ -16,6 +16,8 @@
   <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MostafaSaafan5517&layout=compact&theme=vision-friendly-dark">
 </div>
 
+<br>
+
 ## Languages and Tools I Use:
 
 <div align="center">
@@ -23,6 +25,8 @@
     <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,bootstrap,tailwind,redux,materialui,vscode,figma,git,github,vercel&perline=8" />
   </a>
 </div>
+
+-
 
 <div align="center">
  <img width="1000" src="./github-snake.svg" alt="snake"/>
