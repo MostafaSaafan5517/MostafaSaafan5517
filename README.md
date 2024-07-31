@@ -1,16 +1,6 @@
 <!-- ## Hi there 👋 -->
 
-<!-- <img src="./bg.svg" alt="" /> -->
-
-<!-- <br/>
-
-<br/>
-
-## Another solution
-
-<br/> -->
-
-<object data="./bg.html" type="image/svg+xml"></object>
+<img src="./bg.svg" alt="" />
 
 <!--
 **MostafaSaafan5517/MostafaSaafan5517** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
