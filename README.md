@@ -15,3 +15,11 @@
 <div align="center">
   <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MostafaSaafan5517&layout=compact&theme=vision-friendly-dark">
 </div>
+
+## Languages and Tools I Use:
+
+<div align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,bootstrap,tailwind,redux,materialui,vscode,figma,git,github,vercel&perline=6" />
+  </a>
+</div>
