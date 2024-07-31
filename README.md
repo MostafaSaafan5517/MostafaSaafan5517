@@ -1,6 +1,4 @@
-<!-- ## Hi there 👋 -->
-
-<img src="./bg.svg" alt="" />
+![header](https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Hi%20there%20ツ&fontAlignY=45&animation=fadeIn)
 
 <!--
 **MostafaSaafan5517/MostafaSaafan5517** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
