@@ -23,3 +23,7 @@
     <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,bootstrap,tailwind,redux,materialui,vscode,figma,git,github,vercel&perline=8" />
   </a>
 </div>
+
+<div align="center">
+ <img width="1000" src="assets/github-snake.svg" alt="snake"/>
+</div>
