@@ -8,4 +8,5 @@
 
 <div align="center">
   <img width="800" height="220" src="https://github-readme-streak-stats.herokuapp.com?user=MostafaSaafan5517&theme=dark&hide_border=true&card_width=800" alt="GitHub Streak" />
+  <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MostafaSaafan5517&size_weight=0.0005&count_weight=0.3&layout=compact&theme=vision-friendly-dark">
 </div>
