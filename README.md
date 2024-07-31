@@ -4,9 +4,13 @@
 
 ### I'm a motivated Front-End Developer with a passion for creating web applications that provide quality user experiences. With a growing knowledge of front-end development, I'm always looking for new challenges and opportunities to learn and improve 📚. I'm committed to staying up-to-date with the latest web industry trends and advancements 📈.
 
----
+## My stats <img width="20" src="https://c.tenor.com/8McIGu0Tf_QAAAAi/fire-joypixels.gif" />
 
 <div align="center">
   <img width="800" height="220" src="https://github-readme-streak-stats.herokuapp.com?user=MostafaSaafan5517&theme=dark&hide_border=true&card_width=800" alt="GitHub Streak" />
-  <img width="600" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MostafaSaafan5517&layout=compact&theme=vision-friendly-dark">
+  <p>---</p>
+</div>
+
+<div align="center">
+  <img width="400" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MostafaSaafan5517&layout=compact&theme=vision-friendly-dark">
 </div>
