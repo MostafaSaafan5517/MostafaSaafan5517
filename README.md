@@ -2,7 +2,7 @@
 
 <h1 align="center">Mostafa Saafan 👨‍💻</h1>
 
-### I'm a motivated Front-End Developer with a passion for creating web applications that provide quality user experiences. With a growing knowledge of front-end development, I'm always looking for new challenges and opportunities to learn and improve 📚. I'm committed to staying up-to-date with the latest web industry trends and advancements 📈.
+### I'm a fullstack developer passionate about building scalable, user-friendly web applications. I love tackling new challenges—whether it's optimizing performance, enhancing user experience, or refining backend systems. My go-to stack includes React, Next.js (App Router), Node.js, PostgreSQL, and Tailwind CSS, but I'm always eager to explore new technologies. Right now, I'm focused on leveling up my skills and preparing for technical interviews while staying up-to-date with the latest trends in web development. Always open to collaboration, learning, and sharing ideas—let’s connect!
 
 <!-- ## My stats <img width="20" src="https://c.tenor.com/8McIGu0Tf_QAAAAi/fire-joypixels.gif" />
 
@@ -24,7 +24,7 @@
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,bootstrap,tailwind,redux,materialui,vscode,figma,git,github,vercel&perline=8" />
+    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,bootstrap,tailwind,materialui,redux,figma,nodejs,express,nestjs,mongodb,postgres,supabase,vscode,git,github,vercel&perline=8" />
   </a>
 </div>
 
