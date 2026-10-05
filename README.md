@@ -3,12 +3,13 @@
 <h1 align="center">Mostafa Saafan 👨‍💻</h1>
 
 <p align="center">
-  <b>Full-stack developer</b> building reliable SaaS products with React, Next.js, TypeScript, Node.js, PostgreSQL and Supabase.<br>
+  <b>Full-stack developer</b> building reliable SaaS products and AI assistants with React, Next.js, TypeScript, Node.js, PostgreSQL and Supabase.<br>
   Top Rated on Upwork with a 100% Job Success Score · Based in Egypt, working remotely with clients worldwide · Arabic and English
 </p>
 
 <p align="center">
   <a href="https://www.upwork.com/freelancers/mostafabadawi"><img src="https://img.shields.io/badge/Hire%20me%20on-Upwork-14a800?style=for-the-badge&logo=upwork&logoColor=white" alt="Hire me on Upwork"></a>
+  <a href="https://hala-phi.vercel.app/demo"><img src="https://img.shields.io/badge/Live%20demo-Hala-0a0a0a?style=for-the-badge&logo=vercel&logoColor=white" alt="Hala live demo"></a>
   <a href="https://clubly-nine.vercel.app"><img src="https://img.shields.io/badge/Live%20demo-Clubly-0a0a0a?style=for-the-badge&logo=vercel&logoColor=white" alt="Clubly live demo"></a>
 </p>
 
@@ -16,6 +17,7 @@
 
 ## What I do
 
+- **AI assistants and agents:** answers grounded in a business's own data with sources (RAG), AI that can only act through validated server-side tools, evaluation suites that measure the AI's behavior, and cost tracking with spending limits.
 - **SaaS products end to end:** multi-tenant apps, dashboards, authentication and roles, from the data model to production.
 - **Payments that stay correct:** Stripe subscriptions and Stripe Connect, signed and idempotent webhooks, and reconciliation jobs, so no payment is ever lost or applied twice.
 - **Secure data:** each customer's data isolated in the database itself with Postgres row-level security, plus append-only audit trails.
@@ -23,9 +25,26 @@
 - **Mobile:** a React Native (Expo) app shipped to both the App Store and Google Play.
 - **Testing and quality:** unit, database and Playwright end-to-end tests in CI, accessibility checks and Lighthouse performance.
 
-## ⭐ Featured project: Clubly
+## ⭐ Featured projects
 
-**A multi-tenant membership platform for gyms, studios and clubs.**
+### Hala: bilingual AI booking receptionist (Arabic and English)
+
+**An AI receptionist for salons, clinics and studios.** Customers chat with it on the business's website in Arabic or English: it answers only from the business's own FAQs and policies with sources, checks real availability, and books, moves or cancels appointments, each confirmed by the customer first. Staff can take over any conversation from an inbox.
+
+🔗 **Live demo:** [hala-phi.vercel.app/demo](https://hala-phi.vercel.app/demo) · 💻 **Code:** [github.com/MostafaSaafan5517/hala](https://github.com/MostafaSaafan5517/hala) · 📖 **How it works:** [technical tour](https://github.com/MostafaSaafan5517/hala/blob/main/docs/how-it-works.md)
+
+- **The AI never writes data itself:** it can only request actions through 8 validated server-side tools, and every booking is shown to the customer to confirm, with signed approvals that can't be tampered with
+- **Double bookings are impossible, enforced by Postgres** (an exclusion constraint), proven by tests firing 20 simultaneous requests at one slot: exactly one succeeds
+- **Grounded answers:** hybrid search (pgvector plus keywords) with Arabic-aware text handling; with nothing relevant found, it says it doesn't know and offers a person
+- **Prompt injection can't change prices or rules,** tested with a model that deliberately obeys injected instructions
+- **Cost control:** every AI call logged with tokens, cost and latency, with daily budgets (about $0.002 per reply)
+- **482 database tests, 96 unit tests, 33 integration tests, 57 Playwright end-to-end tests,** plus an evaluation suite that scores the AI on 24 scripted conversations (the chosen model passed 24/24)
+
+`Next.js` `TypeScript` `Supabase` `PostgreSQL` `pgvector` `Vercel AI SDK` `Playwright` `Vercel`
+
+### Clubly: multi-tenant membership SaaS with Stripe Connect
+
+**A membership platform for gyms, studios and clubs.**
 Businesses connect Stripe, create membership plans, and members subscribe through Stripe Checkout, with a platform fee on every payment.
 
 🔗 **Live:** [clubly-nine.vercel.app](https://clubly-nine.vercel.app) · 💻 **Code:** [github.com/MostafaSaafan5517/clubly](https://github.com/MostafaSaafan5517/clubly)
@@ -49,11 +68,6 @@ Most of my client work lives in private repositories, so here is what I built an
 - **Calimero ([calimeroshop.de](https://calimeroshop.de)):** a live restaurant ordering and POS system where I built the staff and admin tooling, the order flow and refund handling.
 - **E-commerce operations platform:** maintained and extended an internal fulfillment and operations platform (React, TypeScript, Supabase) used daily by a 20-person team for orders, courier integration and financial reporting.
 
-## 🚧 Currently building
-
-**Hala, an AI booking assistant in Arabic and English.** Businesses set up their services, staff and hours, and customers chat with an assistant that answers only from the business's own data, checks real availability and books appointments.
-Built around tool calling with server-side validation, grounded answers with sources (pgvector), double-booking prevention enforced by Postgres itself, prompt-injection resistance, cost tracking, and an evaluation suite in both languages.
-
 ## 📚 Teaching
 
 I also teach programming in Egypt: in-person courses in programming fundamentals, computer basics and frontend development, plus a secondary-school programming and AI track. Teaching keeps me sharp on the fundamentals and on explaining technical decisions clearly.
@@ -76,6 +90,8 @@ I also teach programming in Egypt: in-person courses in programming fundamentals
   <img src="https://img.shields.io/badge/Playwright-E2E%20testing-2ead33?style=flat-square&logo=playwright&logoColor=white" alt="Playwright">
   <img src="https://img.shields.io/badge/Vitest-Unit%20testing-6e9f18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest">
   <img src="https://img.shields.io/badge/pgTAP-Database%20testing-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pgTAP">
+  <img src="https://img.shields.io/badge/pgvector-RAG%20search-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector">
+  <img src="https://img.shields.io/badge/Vercel%20AI%20SDK-Tool%20calling-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel AI SDK">
 </div>
 
 <br>
