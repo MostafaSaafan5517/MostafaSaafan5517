@@ -3,7 +3,7 @@
 <h1 align="center">Mostafa Saafan 👨‍💻</h1>
 
 <p align="center">
-  <b>Full-stack developer</b> building reliable SaaS products and AI assistants with React, Next.js, TypeScript, Node.js, PostgreSQL and Supabase.<br>
+  <b>Full-stack developer</b> building reliable SaaS products, AI assistants and interactive web experiences with React, Next.js, TypeScript, Node.js, PostgreSQL and Supabase.<br>
   Top Rated on Upwork with a 100% Job Success Score · Based in Egypt, working remotely with clients worldwide · Arabic and English
 </p>
 
@@ -11,6 +11,7 @@
   <a href="https://www.upwork.com/freelancers/mostafabadawi"><img src="https://img.shields.io/badge/Hire%20me%20on-Upwork-14a800?style=for-the-badge&logo=upwork&logoColor=white" alt="Hire me on Upwork"></a>
   <a href="https://hala-phi.vercel.app/demo"><img src="https://img.shields.io/badge/Live%20demo-Hala-0a0a0a?style=for-the-badge&logo=vercel&logoColor=white" alt="Hala live demo"></a>
   <a href="https://clubly-nine.vercel.app"><img src="https://img.shields.io/badge/Live%20demo-Clubly-0a0a0a?style=for-the-badge&logo=vercel&logoColor=white" alt="Clubly live demo"></a>
+  <a href="https://sahra-khaki.vercel.app"><img src="https://img.shields.io/badge/Live%20demo-Sahra-0a0a0a?style=for-the-badge&logo=vercel&logoColor=white" alt="Sahra live demo"></a>
 </p>
 
 ---
@@ -22,6 +23,7 @@
 - **Payments that stay correct:** Stripe subscriptions and Stripe Connect, signed and idempotent webhooks, and reconciliation jobs, so no payment is ever lost or applied twice.
 - **Secure data:** each customer's data isolated in the database itself with Postgres row-level security, plus append-only audit trails.
 - **Taking over existing codebases,** including AI-built and low-code apps, and making them production-ready without rewriting what already works.
+- **Interactive and animated front-end:** WebGL and Three.js scenes with custom shaders, scroll-driven animation with GSAP, and SVG animation, built to stay smooth on mid-range phones.
 - **Mobile:** a React Native (Expo) app shipped to both the App Store and Google Play.
 - **Testing and quality:** unit, database and Playwright end-to-end tests in CI, accessibility checks and Lighthouse performance.
 
@@ -58,6 +60,22 @@ Businesses connect Stripe, create membership plans, and members subscribe throug
 
 `Next.js` `TypeScript` `Supabase` `PostgreSQL` `Stripe Connect` `Playwright` `Vercel`
 
+### Sahra: interactive WebGL website scene that runs at 60 fps on phones
+
+**The homepage of a fictional design studio, built around a living desert.** Up to 49,152 sand grains drift into dune lines on their own, scatter under the visitor's cursor or finger like a gust of wind, and change light through dawn, midday and dusk.
+
+🔗 **Live:** [sahra-khaki.vercel.app](https://sahra-khaki.vercel.app) · 🧪 **The Lab:** [sahra-khaki.vercel.app/lab](https://sahra-khaki.vercel.app/lab/) · 💻 **Code:** [github.com/MostafaSaafan5517/sahra](https://github.com/MostafaSaafan5517/sahra)
+
+- **All grain motion runs in a custom GLSL shader:** a noise flow field, dunes that creep downwind, sun shading and haze, with touch gusts passed to the GPU
+- **Measured, not claimed:** 60 fps with all 49,152 grains on a mid-range Android phone (HONOR 400), and 60 fps on a 2015 laptop
+- **Adaptive quality:** four quality tiers chosen per device, stepped down automatically by a live frame-rate monitor, pausing off screen and falling back to a still image where there's no GPU
+- **Lighthouse 100 on mobile** in CI, zero layout shift, and WCAG AA contrast checked across every lighting state
+- **The Lab:** a self-drawing Islamic geometric pattern in pure SVG and CSS, and a GSAP scroll story with pinned sections and a horizontal pan
+- **One-line embed** for any website (Webflow, WordPress), loading the scene only where a GPU can run it
+- **70 unit tests and 92 Playwright end-to-end tests,** with size budgets on every file
+
+`Three.js` `WebGL` `GLSL` `TypeScript` `GSAP` `Vite` `Playwright` `Vercel`
+
 ## 🛠️ Selected client work
 
 Most of my client work lives in private repositories, so here is what I built and what it involved.
@@ -66,11 +84,10 @@ Most of my client work lives in private repositories, so here is what I built an
 - **Lighting-control mobile app:** built a React Native (Expo, TypeScript) app shipped to the App Store and Google Play, covering EAS builds, TestFlight, an App Store review rejection and resubmission, and a follow-up release. LAN-first device control with cloud fallback and offline mode.
 - **Lynx ([collab-with-lynx.com](https://collab-with-lynx.com)):** a creator platform where I built authentication, onboarding and profiles on Supabase and PostgreSQL with row-level security.
 - **Calimero ([calimeroshop.de](https://calimeroshop.de)):** a live restaurant ordering and POS system where I built the staff and admin tooling, the order flow and refund handling.
-- **E-commerce operations platform:** maintained and extended an internal fulfillment and operations platform (React, TypeScript, Supabase) used daily by a 20-person team for orders, courier integration and financial reporting.
 
 ## 📚 Teaching
 
-I also teach programming in Egypt: in-person courses in programming fundamentals, computer basics and frontend development, plus a secondary-school programming and AI track. Teaching keeps me sharp on the fundamentals and on explaining technical decisions clearly.
+I also teach programming in Egypt: in-person courses in programming fundamentals and frontend development, including advanced JavaScript and React. Teaching keeps me sharp on the fundamentals and on explaining technical decisions clearly.
 
 ## 🧰 Languages and tools
 
@@ -78,7 +95,7 @@ I also teach programming in Egypt: in-person courses in programming fundamentals
 
 <div align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,materialui,bootstrap,redux,nodejs,express,nestjs,postgres,supabase,mongodb,githubactions,vercel,git,github,figma,postman,vscode&perline=12" />
+    <img src="https://skillicons.dev/icons?i=html,css,sass,js,ts,react,nextjs,tailwind,materialui,bootstrap,redux,nodejs,express,postgres,supabase,mongodb,githubactions,vercel,git,github,figma,postman,vscode&perline=12" />
   </a>
 </div>
 
@@ -91,6 +108,8 @@ I also teach programming in Egypt: in-person courses in programming fundamentals
   <img src="https://img.shields.io/badge/Vitest-Unit%20testing-6e9f18?style=flat-square&logo=vitest&logoColor=white" alt="Vitest">
   <img src="https://img.shields.io/badge/pgTAP-Database%20testing-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pgTAP">
   <img src="https://img.shields.io/badge/pgvector-RAG%20search-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector">
+  <img src="https://img.shields.io/badge/Three.js-WebGL%20%26%20GLSL-000000?style=flat-square&logo=threedotjs&logoColor=white" alt="Three.js">
+  <img src="https://img.shields.io/badge/GSAP-Animation-88CE02?style=flat-square&logo=greensock&logoColor=black" alt="GSAP">
   <img src="https://img.shields.io/badge/Vercel%20AI%20SDK-Tool%20calling-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel AI SDK">
 </div>
 
