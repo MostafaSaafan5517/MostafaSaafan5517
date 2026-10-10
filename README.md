@@ -55,8 +55,8 @@ Businesses connect Stripe, create membership plans, and members subscribe throug
 - Stripe Connect onboarding, Stripe Checkout, the billing portal and payout dashboards
 - Payments change only through **signed, idempotent webhooks**, with a **daily reconciliation job** that re-checks everything with Stripe
 - Each business's data isolated with **row-level security**, and an **append-only change history** nobody can edit or delete
-- **88 unit tests, 304 database tests and 73 Playwright end-to-end tests** (including real Stripe test payments), all running in CI
-- **WCAG 2.1 AA** accessibility checks on every page, and **Lighthouse 94 to 98** on mobile
+- **169 unit tests, 304 database tests and 76 Playwright end-to-end tests** (including real Stripe test payments), all running in CI
+- **WCAG 2.1 AA** on all 74 screens in light and dark, after a full redesign with its own design system
 
 `Next.js` `TypeScript` `Supabase` `PostgreSQL` `Stripe Connect` `Playwright` `Vercel`
 
